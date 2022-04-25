@@ -1,0 +1,83 @@
+footer {
+    width: 100%;
+    height: 455px;
+    background-color: $sitePink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        border: 2px solid $siteWhite;
+        color: $siteWhite;
+        margin-bottom: 46px;
+        font-family: GillSans;
+    }
+
+    .contact {
+        text-align: center;
+        font-family: GillSans;
+        font-size: 16px;
+        color: $siteWhite;
+        margin-bottom: 46px;
+    }
+
+    .subscribe {
+        display: flex;
+        margin-bottom: 30px;
+
+        input {
+            width: 529px;
+            height: 60px;
+            background-color: #F56B88;
+            border: none;
+            padding: 20px;
+            font-family: GillSans;
+            font-size: 16px;
+        }
+
+        .button {
+            width: 167px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $siteWhite;
+            color: $sitePink;
+            font-family: GillSans;
+            font-size: 16px;
+        }
+    }
+
+    .icons {
+        color: $siteWhite;
+        font-size: 32px;
+        margin-bottom: 46px;
+
+        i {
+            margin: 0 15px;
+        }
+    }
+
+    .copyright {
+        font-family: GillSans;
+        font-size: 12px;
+        color: $siteGray;
+    }
+}
+
+@media screen and (max-width: $siteContentWidth) {
+    footer {
+        .subscribe {
+            input {
+                width: 300px;
+            }
+        }
+    }
+}

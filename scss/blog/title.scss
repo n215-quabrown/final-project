@@ -1,0 +1,13 @@
+.blogTitle {
+    max-width: $siteContentWidth;
+    margin: 66px auto 31px auto;
+
+    h1 {
+        width: 229px;
+        height: 35px;
+        font-family: GillSans;
+        font-size: 25px;
+        font-weight: normal;
+        border-bottom: 2px solid $siteBlack;
+    }
+}

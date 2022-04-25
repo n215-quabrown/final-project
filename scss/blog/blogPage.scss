@@ -1,0 +1,59 @@
+.blogPage {
+    max-width: $siteContentWidth;
+
+    margin: 50px auto 150px auto;
+
+    .blogHero {
+        background-image: linear-gradient(rgba($sitePink, 0.75), rgba($sitePink, 0.75)), url(../images/blog.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .date {
+            background-color: $sitePink;
+            height: 155px;
+            width: 155px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
+            text-decoration: none;
+
+            h5 {
+                font-size: 55px;
+                font-family: GillSans;
+                font-style: bold;
+                color: $siteWhite;
+                margin-bottom: 0;
+            }
+
+            h6 {
+                font-size: 31px;
+                font-family: GillSans;
+                font-weight: lighter;
+                color: $siteWhite;
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    h4 {
+        font-family: GillSans;
+        font-size: 20px;
+        color: $sitePink;
+        font-weight: normal;
+        margin-top: 57px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-family: GillSans;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}

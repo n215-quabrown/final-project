@@ -1,0 +1,99 @@
+.hero {
+    max-width: $siteContentWidth;
+    height: 400px;
+    margin: 50px auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    h1 {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -60px;
+        font-family: GillSans;
+        font-weight: normal;
+        text-shadow: 3px 3px rgba($siteBlack, 0.25);
+
+        .big {
+            font-size: 300px;
+        }
+    }
+
+    .yellowText {
+        color: $siteYellow;
+        font-size: 140px;
+    }
+
+    .pinkText {
+        color: $sitePink;
+        font-size: 140px;
+    }
+
+    .greenText {
+        color: $siteGreen;
+        font-size: 140px;
+    }
+
+    .purpleText {
+        color: $sitePurple;
+        font-size: 115px;
+    }
+
+    .tealText {
+        color: $siteTeal;
+        font-size: 115px;
+    }
+}
+
+.foodFestival {
+    background-image: linear-gradient(rgba($siteYellow, 0.75), rgba($siteYellow, 0.75)), url(../images/gallery/1.png);
+}
+
+.deeJay {
+    background-image: linear-gradient(rgba($sitePink, 0.75), rgba($sitePink, 0.75)), url(../images/gallery/2.jpeg);
+}
+
+.speech {
+    background-image: linear-gradient(rgba($siteGreen, 0.75), rgba($siteGreen, 0.75)), url(../images/gallery/3.jpg);
+}
+
+.openFoodfest {
+    background-image: linear-gradient(rgba($sitePurple, 0.75), rgba($sitePurple, 0.75)), url(../images/gallery/4.jpg);
+}
+
+.international {
+    background-image: linear-gradient(rgba($siteTeal, 0.75), rgba($siteTeal, 0.75)), url(../images/gallery/5.png);
+}
+
+@media screen and (max-width: $siteContentWidth) {
+    .hero {
+        h1 {
+            margin-bottom: -30px;
+
+            .big {
+                font-size: 150px;
+            }
+        }
+
+        .yellowText {
+            font-size: 70px;
+        }
+
+        .pinkText {
+            font-size: 70px;
+        }
+
+        .greenText {
+            font-size: 70px;
+        }
+
+        .purpleText {
+            font-size: 58px;
+        }
+
+        .tealText {
+            font-size: 58px;
+        }
+    }
+}

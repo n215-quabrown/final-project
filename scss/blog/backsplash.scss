@@ -1,0 +1,66 @@
+.blogBacksplash {
+    margin: 0 auto;
+    max-width: $siteContentWidth;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 56px;
+
+    .blogTile {
+        max-width: 460px;
+        height: 257px;
+        margin-bottom: 30px;
+
+        .date {
+            float: left;
+            background-color: $sitePink;
+            height: 60px;
+            width: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: normal;
+            text-decoration: none;
+
+            h5 {
+                font-size: 22px;
+                font-family: GillSans;
+                font-style: bold;
+                color: $siteWhite;
+                margin-bottom: 0;
+            }
+
+            h6 {
+                font-size: 12px;
+                font-family: GillSans;
+                color: $siteWhite;
+                margin-bottom: 0;
+            }
+        }
+
+        .hero {
+            max-width: 380px;
+            height: 140px;
+            margin: 0 0 20px 80px;
+            background-image: url(../images/blog.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .title {
+            font-family: GillSans;
+            font-size: 15px;
+            margin-left: 80px;
+            margin-bottom: 11px;
+        }
+
+        .description {
+            font-family: GillSans;
+            font-size: 13px;
+            margin-left: 80px;
+            color: $sitePink;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.contactTitle {
+    max-width: $siteContentWidth;
+    margin: 66px auto;
+
+    h1 {
+        font-family: GillSans;
+        font-size: 25px;
+        height: 35px;
+        max-width: 229px;
+        border-bottom: 2px solid $siteBlack;
+    }
+}
+
+@media screen and (max-width: $siteContentWidth) {
+    .contactTitle {
+        padding: 8px;
+    }
+}

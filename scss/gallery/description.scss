@@ -1,0 +1,13 @@
+.description {
+    max-width: $siteContentWidth;
+    display: flex;
+    margin: 0 auto 83px auto;
+    justify-content: space-between;
+
+    p {
+        width: 45%;
+        font-family: Gill Sans;
+        font-style: italic;
+        font-weight: lighter;
+    }
+}

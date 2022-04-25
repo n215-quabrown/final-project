@@ -1,0 +1,15 @@
+.aboutHero {
+    max-width: $siteContentWidth;
+    height: 380px;
+    background-image: linear-gradient(rgba($siteYellow, 0.75), rgba($siteYellow, 0.75)), url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 86px auto -25px auto;
+}
+
+@media screen and (max-width: $siteContentWidth) {
+    .aboutHero {
+        margin: 86px auto -33px auto;
+    }
+}

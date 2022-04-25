@@ -1,0 +1,27 @@
+.history {
+    max-width: $siteContentWidth;
+    margin: 0 auto;
+
+    h1 {
+        font-family: Gill Sans;
+        font-size: 25px;
+        font-weight: normal;
+        max-width: 230px;
+        height: 35px;
+        border-bottom: 2px solid $siteBlack;
+    }
+
+    p {
+        font-family: Gill Sans;
+        font-size: 16px;
+        font-weight: lighter;
+        font-style: italic;
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (max-width: $siteContentWidth) {
+    .history {
+        padding: 8px;
+    }
+}
